@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: de.unibayreuth.se.teaching.list.DoublyLinkedListTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.238 s <<< FAILURE! -- in de.unibayreuth.se.teaching.list.DoublyLinkedListTest
+de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testToArray -- Time elapsed: 0.128 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: array lengths differ, expected: <0> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysHaveSameLength(AssertArrayEquals.java:428)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:302)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:135)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:131)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1393)
+	at de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testToArray(DoublyLinkedListTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testEmpty -- Time elapsed: 0.011 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: array lengths differ, expected: <0> but was: <1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysHaveSameLength(AssertArrayEquals.java:428)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:302)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:135)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:131)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1393)
+	at de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testEmpty(DoublyLinkedListTest.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testInsert -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: array lengths differ, expected: <5> but was: <6>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysHaveSameLength(AssertArrayEquals.java:428)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:302)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:135)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:131)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1393)
+	at de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testInsert(DoublyLinkedListTest.java:113)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testAppendList -- Time elapsed: 0.003 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: array lengths differ, expected: <3> but was: <4>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysHaveSameLength(AssertArrayEquals.java:428)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:302)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:135)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:131)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1393)
+	at de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testAppendList(DoublyLinkedListTest.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testAppendArray -- Time elapsed: 0.004 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: array lengths differ, expected: <3> but was: <4>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArraysHaveSameLength(AssertArrayEquals.java:428)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:302)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:135)
+	at org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:131)
+	at org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1393)
+	at de.unibayreuth.se.teaching.list.DoublyLinkedListTest.testAppendArray(DoublyLinkedListTest.java:87)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
